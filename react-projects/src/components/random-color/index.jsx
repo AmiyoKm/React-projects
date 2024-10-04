@@ -1,4 +1,4 @@
-import React , {useState} from "react";
+import React , {useState, useEffect} from "react";
 
 export default function RandomColor() {
     const [typeOfColor, setTypeOfColor] = useState(null);
@@ -25,6 +25,11 @@ export default function RandomColor() {
         const rgbColor = `rgb(${r}, ${g}, ${b})`;
         setColor(rgbColor);
     }
+
+     useEffect(()=>{
+        typeOfColor === "hex" ? handleCreateRandomHexColor() : handleCreateRandomRgbColor();
+        
+     },[typeOfColor]);
 
     return <div style={{
         backgroundColor: color,
