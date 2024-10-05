@@ -5,6 +5,7 @@ import ImageUrl from "./components/image-slider/index.jsx"
 import LoadMoreData from "./components/load-more/index.jsx"
 import TreeView from "./components/tree-view/index.jsx"
 import menus from "./components/tree-view/data.js"
+import QrCodeGenerator from "./components/qr-code-generator/index.jsx"
 
 function App() {
  
@@ -18,8 +19,9 @@ function App() {
        page={"1"}/>  */}
       {/*<LoadMoreData /> */}
 
-      <TreeView menus={menus} />
-    </>
+      {/*<TreeView menus={menus} />*/}
+       <QrCodeGenerator/>  
+         </>
   )
 }
 
