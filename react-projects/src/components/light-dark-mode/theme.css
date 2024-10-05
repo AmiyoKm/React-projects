@@ -1,0 +1,43 @@
+:root{
+    --background :white;
+    --text-primary: black;
+    --button-background:black;
+    --button-text-color: white;
+}
+
+[data-theme ="dark" ]{
+    --background: black;
+    --text-primary: white;
+    --button-background: white;
+    --button-text-color: black;
+}
+.light-dark-mode{
+    background-color: var(--background);
+    height:100vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    font-size:20px;
+    transition: all 0.5s ease-in
+}
+.container .light-dark-mode{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap:30px;
+}
+.light-dark-mode .container p{
+    color:var(--text-primary);
+    font-size:40px;
+}
+.light-dark-mode .container button{
+    background-color:var(--button-background);
+    border: 1px solid var(--button-background);
+    color: var(--button-text-color);
+    padding:10px 20px;
+    cursor:pointer;
+    transition: all 0.5s ease-in;
+    margin:15px 0px;
+    border-radius:8px;
+}
