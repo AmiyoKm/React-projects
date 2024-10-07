@@ -23,7 +23,8 @@
     cursor:pointer
   }
   .content{
-    color:white;
+    color:rgb(171, 0, 0);
+    height: 40px !important; 
   }
   .enable-multi{
     padding:15px;
