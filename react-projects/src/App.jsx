@@ -11,6 +11,7 @@ import ScrollIndicator from "./components/scroll-indicator/index.jsx"
 import TabTest from "./components/custom-tabs/tab-test.jsx"
 import ModalTest from "./components/custom modal pop-up/modal-test.jsx"
 import GitHubProfileFinder from "./components/github-profile-finder/index.jsx"
+import SearchAutoComplete from "./components/search auto complete/index.jsx"
 
 
 function App() {
@@ -32,7 +33,9 @@ function App() {
 
          {/* <TabTest />  */}
         {/* <ModalTest /> */}
-        <GitHubProfileFinder/>
+         {/* <GitHubProfileFinder/> */}
+
+         <SearchAutoComplete />
          </>
   )
 }
