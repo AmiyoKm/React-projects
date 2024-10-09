@@ -19,6 +19,8 @@ import UseFetchHookTest from "./components/useFetch/test.jsx"
 import UseOnClickOutsideTest from "./components/use-outside-click/test.jsx"
 import UseWindowResizeTest from "./components/use-window-resize/test.jsx"
 import ScrollToTopAndBottom from "./components/scroll to top and bottom/index.jsx"
+import ScrollToSection from "./components/scroll to top and bottom/scroll-to-section.jsx"
+import WeatherUpdate from "./weather app/index.jsx"
 
 
 function App() {
@@ -51,7 +53,9 @@ function App() {
           {/* <UseFetchHookTest/>  */}
            {/* <UseOnClickOutsideTest/> */}
            {/*<UseWindowResizeTest/> */}
-           <ScrollToTopAndBottom/>
+           {/* <ScrollToTopAndBottom/> */}
+          {/*  <ScrollToSection/> */}
+           <WeatherUpdate />
          </>
   )
 }
